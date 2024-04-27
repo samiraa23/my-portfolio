@@ -1,0 +1,51 @@
+header h1{
+
+    color: blue;
+}
+nav{
+    width: 100%;
+    background-color:#333;
+    overflow: hidden;
+    border-bottom: 5px solid red;
+    padding: 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+
+}
+nav ul li a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: #fff;
+    
+    padding: 30px 10px;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: oldlace;
+    margin-top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+h3{
+    color: blue;
+}
+footer{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 3em 0;
+}
